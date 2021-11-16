@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device.width, initial-scale=1"><title>
+
+
 			{% block title %}
 				welcome!
 			{% endblock %}
@@ -16,6 +18,8 @@
 		{% endblock %}
 	</head>
 	<body>
+		{% include 'base/navbar.html.twig' %}
+
 		{% block body %}{% endblock %}
 	</body>
 </html>
