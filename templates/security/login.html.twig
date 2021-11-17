@@ -31,7 +31,7 @@
 						<div class="col-lg-4 mx-auto">
 							<div class="auto-form-wrapper">
 								<form action="{{ path('app_login') }}" method="post">
-									{% if error %}1
+									{% if error %}
 										<div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'secur1ity') }}</div>
 									{% endif %}
 
