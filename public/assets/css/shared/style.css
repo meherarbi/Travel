@@ -382,6 +382,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+  padding: 3%;
 }
 
 button {
@@ -9682,6 +9683,8 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+  position: relative;
+  top: -8%;
 }
 
 @media (min-width: 576px) {
@@ -12979,12 +12982,14 @@ ul li {
 .auth.register-bg-1 {
   background: url("../../images/auth/register.jpg") center center no-repeat;
   background-size: cover;
+ 
 }
 .auth.theme-one .auto-form-wrapper {
   background: #fff;
   padding: 40px 40px 10px;
   border-radius: 4px;
   box-shadow: 0 -25px 37.7px 11.3px rgba(8, 143, 220, 0.07);
+  width: 91%;
 }
 .auth.theme-one .auto-form-wrapper .form-group .input-group {
   height: 44px;
